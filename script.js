@@ -9,6 +9,14 @@ function writePassword() {
   passwordText.value = password;
 
 }
+// Function generatePassword
+//Add 
+function generatePassword() {
+  var lowerCase = 'abcdefghijklmnopqrstuvwxyz'
+  var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  var numbers = '0123456789'
+  var specialCharacter = ' !"#$%&()*+,-.:;<=>?@[]`_^{}|~'
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
